@@ -6,6 +6,8 @@
 return {
   -- first key is the mode
   n = {
+    ["<C-u>"] = { "<C-u>zz" },
+    ["<C-d>"] = { "<C-d>zz" },
     -- second key is the lefthand side of the map
 
     -- navigate buffer tabs with `H` and `L`
